@@ -54,7 +54,7 @@
 			)
 		)
 	)
-	(property "Description" "This connector is designed to be be soldered to a wired battery pack, like the ones connected to 9v battery connectors."
+	(property "Description" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
