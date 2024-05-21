@@ -1,0 +1,191 @@
+(footprint "Wired_Battery_Connector"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "47b2491d-0280-4474-ae14-9ae6736b02a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Wired_Battery_Connector"
+		(at 0 -6.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e99b6f3-ff48-4984-9444-289df37b0d62")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86544407-e528-4907-9ffb-edd054938070")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://github.com/HBoyd255/wired-battery-connector"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "08747480-e070-400e-904c-16defc971a41")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "This connector is designed to be be soldered to a wired battery pack, like the ones connected to 9v battery connectors."
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8f01651c-0571-4c3f-b819-b3d85c0aa7ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.5 -3)
+		(end 0.5 -3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cfb30f53-b4b0-4ed1-a04e-b59b1c3b61f8")
+	)
+	(fp_line
+		(start -0.5 2.5)
+		(end 0.5 2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "db0fbd8b-d545-4bf4-8b3c-01f939d1c3fe")
+	)
+	(fp_line
+		(start 0 -3.5)
+		(end 0 -2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "401127b9-9b0d-4ddf-8059-cd1821bbd0d0")
+	)
+	(fp_rect
+		(start -1.5 -4)
+		(end 1.5 3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "7d267ca1-2abf-4da6-82e6-5a4f133ea3d7")
+	)
+	(fp_rect
+		(start -1 -5)
+		(end 1 -4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "fb2b725f-f779-4056-98dd-20b04f99c353")
+	)
+	(fp_line
+		(start -1.8 -5.5)
+		(end -1.8 3.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "73a15a50-7adf-4511-833a-a29f372d85bf")
+	)
+	(fp_line
+		(start -1.8 3.5)
+		(end 1.8 3.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c49cab45-9451-40ec-99b8-ac6868d851f3")
+	)
+	(fp_line
+		(start 1.8 -5.5)
+		(end -1.8 -5.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1d25adf7-69b1-439e-aced-e39c85c8bf50")
+	)
+	(fp_line
+		(start 1.8 3.5)
+		(end 1.8 -5.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cf666bd9-8ce1-4b49-be7f-6ccd7fd3ac61")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c0433737-eafd-4274-84cd-7d671b83435b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 -1.5)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4e307843-0fe7-411b-adbc-7a06c28135aa")
+	)
+	(pad "2" thru_hole oval
+		(at 0 1.29)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e82a213f-6097-4381-9ad5-b8908fd4f2e1")
+	)
+)
